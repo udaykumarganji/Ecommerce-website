@@ -59,8 +59,58 @@ It combines everything I learned — HTML, CSS, JavaScript, interactivity, respo
 **Technologies:** HTML | CSS | JavaScript
 
 ---
+##**Screenshorts**
+--**
+**HOME1**
 
-![image alt](!)
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/home1.png)
 
 
-![image alt](!)
+**HOME2**
+
+
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/home2.png)
+
+
+**HOME3**
+
+
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/home3.png)
+
+
+**PRODUCTS**
+
+
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/products.png)
+
+
+**CART**
+
+
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/cart.png)
+
+
+**CONTACT**
+
+
+![image alt](https://github.com/udaykumarganji/Ecommerce-website/blob/52b6c8c2f404e74bd79f0e6d8c5c5659b5a335b7/screenshorts/contact.png)
+
+
+--
+
+LINKDIN:- https://www.linkedin.com/in/uday-kumar-4b6b56244/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
