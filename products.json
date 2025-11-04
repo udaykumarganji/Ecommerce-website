@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone Pro X",
+    "price": 799.99,
+    "image": "images/mobile1.webp",
+    "category": "Mobiles",
+    "description": "The latest smartphone with stunning display and powerful camera.",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "UltraBook 15 Gen",
+    "price": 1199.00,
+    "image": "images/laptop1.webp",
+    "category": "Laptops",
+    "description": "Sleek and powerful laptop for all your professional needs.",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price": 149.99,
+    "image": "images/headphone1.webp",
+    "category": "Audio",
+    "description": "Immersive sound experience with industry-leading noise cancellation.",
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "name": "Classic Denim Jacket",
+    "price": 65.50,
+    "image": "images/jacket1.webp",
+    "category": "Fashion",
+    "description": "Timeless denim jacket, perfect for any casual outfit.",
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch Series 7",
+    "price": 249.00,
+    "image": "images/watch1.webp",
+    "category": "Wearables",
+    "description": "Track your fitness and stay connected with this advanced smartwatch.",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Ergonomic Office Chair",
+    "price": 199.99,
+    "image": "images/chair1.webp",
+    "category": "Home & Office",
+    "description": "Comfortable and supportive chair for long hours at your desk.",
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "4K Smart TV 55 Inch",
+    "price": 899.00,
+    "image": "images/tv1.webp",
+    "category": "Electronics",
+    "description": "Experience stunning visuals with this smart 4K UHD television.",
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Gaming Mouse RGB",
+    "price": 49.99,
+    "image": "images/mouse1.webp",
+    "category": "Gaming",
+    "description": "Precision gaming mouse with customizable RGB lighting.",
+    "rating": 4.1
+  },
+  {
+    "id": 9,
+    "name": "Designer Handbag",
+    "price": 120.00,
+    "image": "images/handbag1.webp",
+    "category": "Fashion",
+    "description": "Elegant and spacious handbag for your everyday essentials.",
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "Coffee Maker Deluxe",
+    "price": 75.00,
+    "image": "images/coffeemaker1.webp",
+    "category": "Home & Kitchen",
+    "description": "Brew perfect coffee every morning with this stylish machine.",
+    "rating": 4.0
+  }
+]

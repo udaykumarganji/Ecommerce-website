@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartCart - All Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">SmartCart</a>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for products..." id="header-search-input">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart <span class="cart-count" id="cart-count">0</span></a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2 class="section-title">Our Products</h2>
+
+      <section class="product-filters">
+        <div class="filter-group">
+          <label for="category-filter">Category:</label>
+          <select id="category-filter">
+            <!-- Options will be populated by JavaScript -->
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="search-input">Search:</label>
+          <input type="text" id="search-input" placeholder="Search by name, description...">
+        </div>
+        <!-- Add more filters here (e.g., price range, brand) -->
+      </section>
+
+      <section class="all-products">
+        <div class="product-grid" id="product-listing-grid">
+          <!-- Products will be loaded here by JavaScript -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SmartCart. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scroll-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js" defer></script>
+  <script>
+    // Optional: If you want header search to redirect to products page
+    document.getElementById('header-search-input').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        const searchTerm = e.target.value;
+        if (searchTerm) {
+          window.location.href = `products.html?search=${encodeURIComponent(searchTerm)}`;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

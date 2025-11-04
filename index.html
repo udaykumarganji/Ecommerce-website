@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartCart - Your Online Shopping Destination</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for social icons, scroll-to-top, etc. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">SmartCart</a>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for products..." id="header-search-input">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart <span class="cart-count" id="cart-count">0</span></a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Hero Banner Slider -->
+      <section class="hero-slider">
+        <img src="images/banner1.png" alt="Seasonal Sale Banner" class="slider-image active" loading="eager">
+        <img src="images/banner2.png" alt="New Arrivals Banner" class="slider-image" loading="eager">
+        <img src="images/banner3.webp" alt="Electronics Deals Banner" class="slider-image" loading="eager">
+        <div class="slider-nav">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
+
+      <!-- Category Cards -->
+      <section class="categories">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+          <div class="category-card">
+            <a href="products.html?category=Mobiles">
+              <img src="images/mobile-category.webp" alt="Mobiles" loading="lazy">
+              <h3>Mobiles</h3>
+            </a>
+          </div>
+          <div class="category-card">
+            <a href="products.html?category=Laptops">
+              <img src="images/laptop-category.webp" alt="Laptops" loading="lazy">
+              <h3>Laptops</h3>
+            </a>
+          </div>
+          <div class="category-card">
+            <a href="products.html?category=Fashion">
+              <img src="images/fashion-category.webp" alt="Fashion" loading="lazy">
+              <h3>Fashion</h3>
+            </a>
+          </div>
+          <div class="category-card">
+            <a href="products.html?category=Electronics">
+              <img src="images/electronics-category.webp" alt="Electronics" loading="lazy">
+              <h3>Electronics</h3>
+            </a>
+          </div>
+          <div class="category-card">
+            <a href="products.html?category=Home & Office">
+              <img src="images/home-category.webp" alt="Home & Office" loading="lazy">
+              <h3>Home & Office</h3>
+            </a>
+          </div>
+          <div class="category-card">
+            <a href="products.html?category=Audio">
+              <img src="images/audio-category.webp" alt="Audio" loading="lazy">
+              <h3>Audio</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <h2 class="section-title">Deals of the Day</h2>
+        <div class="product-grid" id="featured-products-grid">
+          <!-- Featured products will be loaded here by JavaScript -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SmartCart. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scroll-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js" defer></script>
+  <!-- Optional: If you want header search to redirect to products page -->
+  <script>
+    document.getElementById('header-search-input').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        const searchTerm = e.target.value;
+        if (searchTerm) {
+          window.location.href = `products.html?search=${encodeURIComponent(searchTerm)}`;
+        }
+      }
+    });
+  </script>
+</body>
+</html>
